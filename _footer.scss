@@ -1,0 +1,43 @@
+
+
+footer {
+  display: flex;
+  background: cornflowerblue;
+  padding: 3%;
+
+  #skills {
+    width: 50%;
+  }
+
+  #icons {
+    width: 50%;
+
+    img {
+      width: 10%;
+      margin: 0;
+    }
+  }
+}
+
+// desktop
+@media (min-width: 801px) {
+  footer {
+    display: flex;
+    background: cornflowerblue;
+    padding: 3%;
+
+    #skills {
+      width: 50%;
+    }
+
+    #icons {
+      width: 50%;
+
+      img {
+        width: 5%;
+        margin: 0;
+      }
+    }
+  }
+}
+
